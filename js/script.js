@@ -15,7 +15,18 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         
         // estrapoliamo gli oggetti  dell'array con un ciclo
         for(i =0; i < arrayList.length; i++){
-            console.log(arrayList[i]);
+            
+            container.innerHTML += 
+         `
+            <div class="memories">
+                <img src="./img/pin.svg" alt="" class="pin">
+                <img src="${arrayList[i].url}" alt="" class="foto">
+                <p class="date">${arrayList[i].date}</p>
+                <p class="titolo">${arrayList[i].title}</p>
+            </div>
+
+         `
         }
 
 });
+
