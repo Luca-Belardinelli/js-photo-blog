@@ -13,11 +13,9 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         console.log(arrayList);
 
         
-        // quindi estrapoliamo gli oggetti singoli dell'array con un ciclo
+        // estrapoliamo gli oggetti  dell'array con un ciclo
         for(i =0; i < arrayList.length; i++){
             console.log(arrayList[i]);
         }
-
-
 
 });
