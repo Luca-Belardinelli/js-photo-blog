@@ -55,13 +55,15 @@ header{
 .age{
     color:#818181;
     font-family:Sometype Mono, monospace;
-    padding-left: 30px;
 }
 
 .mintitle{
     font-family: Edu Tas Beginner, sans-serif;
     font-size: 25px;
     font-weight: 800;
+}
+
+p{
     padding-left: 30px;
 }
 
@@ -87,3 +89,62 @@ header{
     left: 50%;
 }
 
+
+
+
+/* 878px : Large screens */
+
+@media (max-width: 878px){
+
+    .title{
+        padding-top: 20px;
+        font-size: 80px;
+    }
+
+    .memories{
+        width: 47%;  
+    }
+
+    #container{
+        max-width:80%;
+    }
+
+    .pin{
+        left: 48%;
+    }
+
+   
+}
+
+
+/* 576px : Large screens */
+
+@media screen and (max-width: 576px){
+
+    .title{
+        padding-top: 30px;
+        font-size: 60px;
+    }
+
+    .memories{
+        width:100%;  
+    }
+
+    #container{
+        max-width:40%;
+    }
+
+    .foto{
+        padding: 10px 10px;
+    }
+
+    .pin{
+        left: 45%;
+    }
+
+    p{
+        padding-left: 15px;
+    }
+
+
+}
