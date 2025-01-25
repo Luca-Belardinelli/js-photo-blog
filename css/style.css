@@ -1,4 +1,4 @@
-/* regole generali css */
+/* REGOLE GENERALI CSS */
 
 *{
     margin: 0;
@@ -7,10 +7,10 @@
 }
 
 body{
-     background-image: url(./../img/cork.png); 
+    background-image: url(./../img/cork.png); 
 }
 
-/* header */
+/* HEADER */
 
 header{
     height: 150px;
@@ -18,7 +18,7 @@ header{
     text-align: center;
 }
 
-/* titolo principale */
+/* TITOLO */
 
 .title{
     font-family: Edu Tas Beginner, sans-serif;
@@ -26,33 +26,64 @@ header{
 }
 
 
-/* main */
-main{
-    /* height: 100%;
-    background-image: url(./../img/cork.png);   */
-}
+/* MAIN */
 
-/* regole dei contenitore delle immagini */
+
+/* CONTENITORE DELLE CARD */
 
 #container{
     display: flex;
     flex-wrap: wrap;
-    max-width:60%;
     margin: auto;
+    max-width:60%;
     gap: 10px;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
+
+
+/* CARD */
 
 .memories{
-    width: 30%;
+    width: 32%;
     height: 300px;
-    margin-bottom: 20x;
-    background-color: white;
+    background-color: white;    
 }
 
 
-img{
-    max-width: 200px;
-    margin: 5px 1px ;
+/* TESTO DELLE CARD */
+
+.age{
+    color:#818181;
+    font-family:Sometype Mono, monospace;
+    padding-left: 30px;
 }
+
+.mintitle{
+    font-family: Edu Tas Beginner, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 30px;
+}
+
+/* IMG */
+
+/* CONTENITORE GENERALE */
+
+.imgcont{
+    height: 80%;
+    position: relative;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.pin{
+    width: 20px;
+    position: absolute;
+    left: 50%;
+}
+
