@@ -50,6 +50,14 @@ header{
 }
 
 
+/* MEMORIES OVER */
+.memories:hover{
+    transform: rotate(40deg);
+    z-index: 1;
+    transition: 0.7s;
+}
+
+
 /* TESTO DELLE CARD */
 
 .age{
@@ -89,6 +97,11 @@ p{
     left: 50%;
 }
 
+
+/* PIN OVER */
+.memories:hover .pin{
+    display: none;
+}
 
 
 
