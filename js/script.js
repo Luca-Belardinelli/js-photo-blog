@@ -10,10 +10,10 @@ const container = document.getElementById('container');
 
 axios.get("https://lanciweb.github.io/demo/api/pictures/")
     .then(response => {
-        console.log(response);
 
+        // PRENDO I DATI CHE M INTERASSANO
         const arrayList = response.data;
-        console.log(arrayList);
+    
 
         
         // ESTRAPOLO I DATI CON UN CICLO
