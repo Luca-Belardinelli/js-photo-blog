@@ -84,7 +84,7 @@ p{
     position: relative;
 }
 
-.foto{
+.photo{
     width: 100%;
     height: 100%;
     padding: 10px 30px;
@@ -108,6 +108,10 @@ p{
 /* OVERLAY */
 
 
+#overlay.none{
+    display: none;
+}
+
 
 
 #overlay{
@@ -120,8 +124,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 9999;
-    
 }
 
 
@@ -129,7 +133,6 @@ p{
     width: 100px;
     height: 50px;
     cursor: pointer;
-    margin-bottom: 600px;
     background-color: rgb(122, 11, 241);
     color: white;
     font-size: 20px;
@@ -139,9 +142,11 @@ p{
 
 
 #openimg{
-    position: absolute;
+    padding-top: 20px;
     width: 20%;
 }
+
+
 
 
 /* MEDIA */
